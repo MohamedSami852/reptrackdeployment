@@ -34,6 +34,7 @@ CSRF_TRUSTED_ORIGINS = [
 # settings.py
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 CSRF_TRUSTED_ORIGINS = [
+  
     'https://reptrack.azurewebsites.net/',
     'http://reptrack.azurewebsites.net',
     'http://localhost:8000',
