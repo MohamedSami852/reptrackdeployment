@@ -27,6 +27,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['https://reptrack.azurewebsites.net/','reptrack.azurewebsites.net/','*'
                  ]
+CSRF_TRUSTED_ORIGINS = [
+    'https://reptrack.azurewebsites.net',
+     
+]
 # settings.py
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 CSRF_TRUSTED_ORIGINS = [
