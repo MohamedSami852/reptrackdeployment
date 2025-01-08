@@ -80,6 +80,12 @@ Each sprint has a separate document detailing its:
 
 
 
+## for further more details about 
+-**this is a deployment Repo :** This repository is exclusively dedicated to CI/CD pipelines for production deployments. A separate repository is maintained for staging deployments, ensuring a clear separation of environments and workflows.
+for more details please check https://github.com/abdullahyasser0/RepTrack
+
+
+
 ## Tools and Boards
 We use **[Trello]** for tracking progress, managing backlogs, and updating sprint tasks.
 
