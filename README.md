@@ -74,7 +74,17 @@ Each sprint has a separate document detailing its:
 - **Goal**: Specific focus or objective.
 - **Backlog**: List of tasks with priorities.
 - **Review**: Summary of the completed work and any changes.
-- **Retrospective**: Observations and adjustments to improve future sprints.     
+- **Retrospective**: Observations and adjustments to improve future sprints.
+
+
+## CI/CD 
+*implemented a CI/CD pipeline to automate production deployments for the Reptrack solution, ensuring seamless updates with minimal downtime.
+*Artifacts are built and stored in the Container Registry (reptrack) for version control and quick rollbacks.
+*Deployed applications include Reptrack and reptrackwebsite, both running as Azure App Services.
+
+## Load Balancing
+Configured a Load Balancer (LoadBalancerreptrack) to distribute incoming traffic evenly between the two App Services, enhancing reliability and fault tolerance and for efficient management and scalability.
+
 - ![image](https://github.com/user-attachments/assets/d4841730-eb66-4241-82bd-97d6ecf6efa8)
 - ![image](https://github.com/user-attachments/assets/387b313e-2070-46cd-ac71-40f31d336633)
 - ![WhatsApp Image 2025-01-07 at 14 14 34_a7ae87ef](https://github.com/user-attachments/assets/5185828b-e615-4e44-8c9a-d72db5d4d578)
